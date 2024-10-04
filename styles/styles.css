@@ -19,11 +19,6 @@
     color: #000;
 }
 
-aside {
-    width: 20rem;
-    text-align: center;
-}
-
 nav{
     background-color: steelblue;
     padding: 10px;
@@ -71,6 +66,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
