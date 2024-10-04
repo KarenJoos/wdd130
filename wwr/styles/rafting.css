@@ -17,8 +17,27 @@
 
 h1 {
     color: #60AB9A;
+    position: relative;
+}
+
+article {
+    position: relative;
+}
+
+article img {
+    float: right;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 h2 {
     color: #FF9FB2;
+}
+
+main {
+    max-width: 840px;
 }
