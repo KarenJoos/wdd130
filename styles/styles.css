@@ -28,11 +28,13 @@ nav{
     background-color: steelblue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: var(--color);
 }
@@ -52,14 +54,16 @@ main img {
     box-shadow: 0 0 30px gray;
 
 }
+
 p {
     padding: 0;
 }
+
 main {
     max-width: 840px;
 }
+
 aside {
-    position: relative
     width: 20rem;
     margin: 1rem;
     border: var(--border) rgba(0, 0, 0, 0.2); 
@@ -68,10 +72,12 @@ aside {
     color: #333;
     text-align: center;
 }
+
 aside img {
     width: 200px;
     height: auto;
 }
+
 footer {
     margin-top: 15px;
     border-top: var(--border) #000;
