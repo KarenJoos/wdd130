@@ -6,14 +6,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 /* Class Selectors */
 
 .box {
     margin: 1rem;
-    border: var(--border) rgba(0,0,0,0.1)
+    border: var(--border) rgba(0,0,0,0.1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
@@ -41,8 +41,8 @@ h1 {
 
 aside h2 {
     position: absolute;
-    top: 615px;
-    left: 160px;
+    top: 650px;
+    left: 150px;
 }
 
 main img {
