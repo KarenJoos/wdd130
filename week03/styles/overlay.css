@@ -27,7 +27,7 @@ div.herodiv {
 }
 
 .stats {
-	position: relative;
+	position: absolute;
 	bottom: 25px;
 	left: 15px;
 	background: radial-gradient(#eee, #4567aa);

@@ -1,6 +1,12 @@
 :root {
-    color: steelblue;
-    border: 1px solid;
+    --color: steelblue;
+    --border: 1px solid;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
 
 nav{
@@ -15,12 +21,21 @@ nav a {
 h1 {
     color: var(--color);
 }
+
+aside h2 {
+    position: absolute;
+    top: 615px;
+    left: 160px;
+}
+
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: var(--border) var(--color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+
 }
 p {
     padding: 0;
@@ -44,5 +59,20 @@ aside img {
 footer {
     margin-top: 15px;
     border-top: var(--border) #000;
+    text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: var(--border) rgba(0,0,0,0.1)
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 20rem;
     text-align: center;
 }
