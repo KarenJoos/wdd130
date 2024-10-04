@@ -1,0 +1,24 @@
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*https://coolors.co/ff9fb2-fbdce2-0acdff-60ab9a-dedee0 color link 
+#FF9FB2 Salmon Pink
+#0ACDFF Vivid sky blue
+#60AB9A Keppel
+#DEDEE0 Platinum
+*/
+
+h1 {
+    color: #60AB9A;
+}
+
+h2 {
+    color: #FF9FB2;
+}
