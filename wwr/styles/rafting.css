@@ -41,10 +41,6 @@ nav a {
     text-decoration: none;
 }
 
-a:link {
-    text-decoration: none;
-}
-
 main {
 	font-family: var(--font-family);
 }
@@ -131,4 +127,5 @@ footer {
     margin-top: 15px;
     border-top: var(--border) #000;
     text-align: left;
+    text-decoration: none;
 }
