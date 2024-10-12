@@ -2,11 +2,17 @@
     --margin: 0px 50px;
     --h1-color: #DEDEE0;
     --h1-background-color: #60AB9A;
+    --font-family: 'Merriweather', serif;
+    
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+h1, h2 ,h3 {
+    font-family: 'Merriweather', serif;
 }
 
 /*https://coolors.co/ff9fb2-fbdce2-0acdff-60ab9a-dedee0 color link 
@@ -17,16 +23,30 @@
 */
 
 /* Nav is Logo/top links*/
-/* nav a {
-    
-} */
+
+/*.flex {
+    background-color: #DEDEE0;
+    display: grid;
+    display: 120px 1fr 2fr;
+    align-items: center;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}*/
+
+nav a {
+    text-decoration: none;
+}
 
 a:link {
     text-decoration: none;
 }
 
 main {
-	font-family: Roboto, Arial, sans-serif;
+	font-family: var(--font-family);
 }
 
 .hero {
@@ -48,10 +68,11 @@ main {
     width: 100%;
     top: 15%;
     left: 50%;
+    background-color: var(--h1-background-color);
+    opacity: 0.9;
     text-align: center;
 	font-size: 3rem;
     color: var(--h1-color);
-    background-color: var(--h1-background-color);
     transform: translate(-50%, -50%);
 }
 
