@@ -134,7 +134,12 @@ h2 {
     font-size: 2rem;
 }
 
-.history {
+.grid {
+    grid-template-columns: repeat(3 1fr);
+    
+}
+
+/* .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: var(--max-width);
@@ -161,7 +166,7 @@ h2 {
 .adv-title {
     grid-column: 1/6;
     text-align: center;
-}
+} */
 
 footer { 
 	padding: 0.5rem;
