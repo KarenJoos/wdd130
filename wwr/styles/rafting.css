@@ -211,7 +211,7 @@ figcaption {
 }
 
 .employee img {
-    height: 150px auto;
+    height: 150px;
 }
 
 .contact fieldset {
@@ -227,7 +227,7 @@ figcaption {
     background-color: #60AB9A;
     margin: 0.5rem;
     border: 1px;
-    border-radius: 0.5;
+    border-radius: 0.5rem;
     padding: .65rem;
     font-size: 1.2rem;
 }
