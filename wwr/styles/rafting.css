@@ -3,7 +3,7 @@
     --h1-color: #DEDEE0;
     --h1-background-color: #60AB9A;
     --font-family: 'Roboto', serif;
-    --h2-color: #0ACDFF;
+    --h2-color: #000;
     --max-width: 1000px;
 }
 
@@ -25,6 +25,10 @@ primary-color #DEDEE0 Platinum
 */
 
 /* is Logo/top links*/
+
+body {
+    font-family: var(--font-family);
+}
 
 header {
 	margin: 1rem auto;
