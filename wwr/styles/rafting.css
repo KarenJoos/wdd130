@@ -1,9 +1,9 @@
 :root {
     --margin: 0px 50px;
-    --h1-color: #DEDEE0;
-    --h1-background-color: #60AB9A;
+    --h1-color: #0D1321;
+    --h1-background-color: #AFE0CE;
     --font-family: 'Roboto', serif;
-    --h2-color: #000;
+    --h2-color: #0D1321;
     --max-width: 1000px;
 }
 
@@ -17,17 +17,17 @@ h1, h2 ,h3 {
     font-family: 'Roboto', serif;
 }
 
-/*https://coolors.co/ff9fb2-fbdce2-0acdff-60ab9a-dedee0 color link 
-secondary-color #FBDCE2 Mimi Pink
-accent2-color #0ACDFF Vivid sky blue
-accent1-color #60AB9A Keppel
-primary-color #DEDEE0 Platinum 
+/*color link https://coolors.co/0d1321-ffeddf-c5d86d-86615c-afe0ce 
+#0D1321 Rich black 
+#FFEDDF Linen 
+#86615C Rose taupe
+#AFE0CE Tiffany Blue 
 */
 
 /* is Logo/top links*/
 
 body {
-    font-family: var(--font-family);
+    font-family: var(--font-family); 
 }
 
 header {
@@ -58,11 +58,11 @@ nav {
 
 .navigation a {
 	display: block;
-	color: #000;
+	color: #0D1321;
     padding: 3px 5px;
 	text-decoration: none;
-    border: 1px solid #000;
-    background-color: #FBDCE2;
+    border: 1px solid #0D1321;
+    background-color: #AFE0CE;
 }
 
 .logo img {
@@ -85,7 +85,7 @@ main {
     width: 100%;
 	height: auto;
 	display: block;
-    border: 2px solid #000;
+    border: 2px solid #0D1321;
     margin: 1rem auto;
 	max-width: var(--max-width);
 }
@@ -106,30 +106,6 @@ main {
     max-width: var(--max-width);
 }
 
-.map {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-    margin: 1rem auto;
-}
-
-.map h1 {
-    grid-column: 1/4;
-    color: var(--h2-color);
-    font-size: 2rem;
-    text-align: center;
-    padding: 5px;
-}
-
-.contact {
-    max-width: var(--max-width);
-    margin: 1rem auto;
-    
-}
-
 /* client */
 .hero article img {
     width: 20%;
@@ -144,8 +120,8 @@ main {
 	top: 30%;
     left: 35%;
 	width: 30%;
-	background: radial-gradient(#DEDEE0, #0ACDFF);
-	border: 1px solid #000;
+	background: radial-gradient(#DEDEE0, #86615C);
+	border: 1px solid #0D1321;
 	padding: 0.65rem;
     opacity: .9;
     margin: 1rem auto;
@@ -158,8 +134,12 @@ section {
     margin: 1rem auto;
 }
 
-.contact section {
-    padding: 1rem;
+.history_img {
+    border: 2px solid rgb(0, 0, 0, 0.2);
+}
+
+.adventure_img {
+    border: 2px solid rgb(0, 0, 0, 0.2);
 }
 
 h2 {
@@ -193,7 +173,8 @@ h2 {
 }
 
 figure img {
-    width: 200px;    
+    width: 200px; 
+    padding: 1rem;   
 }
 
 .adv-title {
@@ -205,6 +186,47 @@ figure img {
 
 figcaption {
     text-align: center;
+}
+
+footer { 
+	padding: 0.5rem;
+    margin-top: 15px;
+    border-top: var(--border) solid #0D1321;
+    text-decoration: none;
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	place-items: center;
+    max-width: var(--max-width);
+}
+
+.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 60%
+}
+
+.map h1 {
+    grid-column: 1/4;
+    color: var(--h2-color);
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact {
+    max-width: var(--max-width);
+    margin: 1rem auto;
+    
+}
+
+.contact section {
+    padding: 1rem;
 }
 
 .employee {
@@ -223,7 +245,7 @@ figcaption {
     border: 2px solid rgb(0, 0, 0, 0.2);
     padding: 1rem;
     width: 400px;
-    background-color: #FBDCE2;
+    background-color: #AFE0CE;
     margin: 1rem auto;
 }
 
@@ -236,17 +258,5 @@ figcaption {
 }
 
 button:hover {
-    background-color: #0ACDFF;
-}
-
-footer { 
-	padding: 0.5rem;
-    margin-top: 15px;
-    border-top: var(--border) solid #000;
-    text-decoration: none;
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 3fr 1fr;
-	place-items: center;
-    max-width: var(--max-width);
+    background-color: #86615C;
 }
