@@ -87,8 +87,8 @@ main {
 	display: block;
     border: 2px solid #0D1321;
     margin: 1rem auto;
-	max-width: var(--max-width);
-}
+	/* max-width: var(--max-width); */
+} 
 
 /* Company Title */
 .hero h1 {
@@ -103,8 +103,8 @@ main {
     color: var(--h1-color);
     transform: translate(-50%, -50%);
     margin: 1rem auto;
-    max-width: var(--max-width);
-}
+    /* max-width: var(--max-width);*/
+} 
 
 /* client */
 .hero article img {
@@ -118,8 +118,8 @@ main {
 .hero article {
 	position: absolute;
 	top: 30%;
-    left: 35%;
-	width: 30%;
+    left: 30%;
+	width: 45%;
 	background: radial-gradient(#DEDEE0, #86615C);
 	border: 1px solid #0D1321;
 	padding: 0.65rem;
@@ -172,9 +172,11 @@ h2 {
     padding: 1rem;
 }
 
-figure img {
-    width: 200px; 
+.figure img {
     padding: 1rem;   
+    text-align: center;
+    max-width: var(--max-width);
+    margin: 1rem auto;
 }
 
 .adv_title {
@@ -186,6 +188,7 @@ figure img {
 
 figcaption {
     text-align: center;
+    padding: 1rem;
 }
 
 footer { 
@@ -263,15 +266,33 @@ button:hover {
 
 /* Index Layout */
 
-.index_rafting {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-    max-width: var(--max-width);
+.index {
     margin: 1rem auto;
+    width: 100%;
+    text-align: center;
+}
+
+.learn {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.rafting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
     padding: 1rem;
 }
 
+.index fieldset {
+    display: block;
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 200px;
+    background-color: #AFE0CE;
+    margin: 1rem auto;
+}
 
 .button {
     background-color: #AFE0CE;
@@ -284,42 +305,75 @@ button:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    justify-content: center;
   }
   
-  .button {
+  .button:hover {
     background-color: #86615C;
+  }
+
+  .index_rafting_link {
+    display: flex;
+    justify-content: center;
   }
 
 /* Trips */
 .trips {
     max-width: var(--max-width);
-
+    margin: 1rem auto;
 }
 
-.trips_adventure {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.trips {
+    text-align: center;  
+}
+
+.trips_flex {
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    max-width: var(--max-width);
+    margin: 1rem auto;
+    padding: 1rem;
 }
 
-.trips_hero_img {
-    width: 100%;
+.bold {
+    font-weight: bold;
 }
 
-.button {
-    background-color: #f44336;
-    border: none;
-    color: white;
-    padding: 14px 25px;
+table {
+    border-collapse: collapse;
+    border:2px solid rgb(0, 0, 0)
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+thead {
+    background-color: #AFE0CE;
+    color: #0D1321;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px 20px;
+}
+
+td:last-of-type {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
-  .button {
-    background-color: red;
-  }
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: #86615C;
+}
+
+tbody>tr:nth-of-type(odd) {
+    background-color: #FFEDDF;
+}
