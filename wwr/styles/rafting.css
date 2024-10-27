@@ -177,7 +177,7 @@ figure img {
     padding: 1rem;   
 }
 
-.adv-title {
+.adv_title {
     text-align: center;
     max-width: var(--max-width);
     margin: 1rem auto;
@@ -199,7 +199,7 @@ footer {
 	place-items: center;
     max-width: var(--max-width);
 }
-
+/* Contact layout */
 .map {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -260,3 +260,66 @@ footer {
 button:hover {
     background-color: #86615C;
 }
+
+/* Index Layout */
+
+.index_rafting {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    max-width: var(--max-width);
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+
+.button {
+    background-color: #AFE0CE;
+    border: none;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  .button {
+    background-color: #86615C;
+  }
+
+/* Trips */
+.trips {
+    max-width: var(--max-width);
+
+}
+
+.trips_adventure {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+}
+
+.trips_hero_img {
+    width: 100%;
+}
+
+.button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button {
+    background-color: red;
+  }
